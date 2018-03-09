@@ -11,7 +11,7 @@ jobs:
       # Post-cache
       - run: swift run -Xswiftc -sanitize=thread swiftlint lint --lenient
       # Test
-      - run: make test_tsan
+      # - run: make test_tsan
 
   osscheck:
     macos:
